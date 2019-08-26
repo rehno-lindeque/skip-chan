@@ -1,0 +1,18 @@
+cabal-version:       >=1.10
+name:                skip-chan
+version:             0.1.0.0
+synopsis:            Skip channel from Concurrent Haskell paper
+homepage:            https://github.com/rehno-lindeque/skip-chan
+license:             BSD3
+license-file:        LICENSE
+author:              Rehno Lindeque
+maintainer:          rehno.lindeque+code@gmail.com
+category:            Concurrency
+build-type:          Simple
+extra-source-files:  CHANGELOG.md
+
+library
+  exposed-modules:     Control.Concurrent.SkipChan
+  build-depends:       base
+  hs-source-dirs:      src
+  default-language:    Haskell2010
